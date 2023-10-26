@@ -1,0 +1,45 @@
+version: "3"
+
+services:
+  redis:
+    image: redis:latest
+    restart: always
+    volumes:
+     - redis-volume:/root/redis
+    ports:
+      - "6379:6379"
+    environment:
+      - REDIS_PORT=6379
+      - REDIS_DATABASES=16
+
+  server1:
+    build: 
+        context: server
+    ports:
+      - "8001:8000"
+    depends_on:
+      - redis
+  
+  server2:
+    build: 
+        context: server
+    ports:
+      - "8002:8000"
+    depends_on:
+      - redis
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./hosts:/etc/nginx/
+      - ./logs/nginx:/var/log/nginx
+    depends_on:
+      - server1
+      - server2
+
+volumes:
+    redis-volume:
+        external: false

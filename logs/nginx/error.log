@@ -1,0 +1,195 @@
+2023/10/26 17:50:10 [notice] 1#1: using the "epoll" event method
+2023/10/26 17:50:10 [notice] 1#1: nginx/1.25.3
+2023/10/26 17:50:10 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/10/26 17:50:10 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2023/10/26 17:50:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/26 17:50:10 [notice] 1#1: start worker processes
+2023/10/26 17:50:10 [notice] 1#1: start worker process 20
+2023/10/26 17:50:10 [notice] 1#1: start worker process 21
+2023/10/26 17:50:10 [notice] 1#1: start worker process 22
+2023/10/26 17:50:10 [notice] 1#1: start worker process 23
+2023/10/26 17:50:10 [notice] 1#1: start worker process 24
+2023/10/26 17:50:10 [notice] 1#1: start worker process 25
+2023/10/26 17:50:10 [notice] 1#1: start worker process 26
+2023/10/26 17:50:10 [notice] 1#1: start worker process 27
+2023/10/26 17:54:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/26 17:54:04 [notice] 20#20: gracefully shutting down
+2023/10/26 17:54:04 [notice] 20#20: exiting
+2023/10/26 17:54:04 [notice] 22#22: gracefully shutting down
+2023/10/26 17:54:04 [notice] 22#22: exiting
+2023/10/26 17:54:04 [notice] 23#23: gracefully shutting down
+2023/10/26 17:54:04 [notice] 23#23: exiting
+2023/10/26 17:54:04 [notice] 24#24: gracefully shutting down
+2023/10/26 17:54:04 [notice] 21#21: gracefully shutting down
+2023/10/26 17:54:04 [notice] 21#21: exiting
+2023/10/26 17:54:04 [notice] 26#26: gracefully shutting down
+2023/10/26 17:54:04 [notice] 26#26: exiting
+2023/10/26 17:54:04 [notice] 27#27: gracefully shutting down
+2023/10/26 17:54:04 [notice] 27#27: exiting
+2023/10/26 17:54:04 [notice] 25#25: gracefully shutting down
+2023/10/26 17:54:04 [notice] 25#25: exiting
+2023/10/26 17:54:04 [notice] 20#20: exit
+2023/10/26 17:54:04 [notice] 22#22: exit
+2023/10/26 17:54:04 [notice] 23#23: exit
+2023/10/26 17:54:04 [notice] 24#24: exiting
+2023/10/26 17:54:04 [notice] 21#21: exit
+2023/10/26 17:54:04 [notice] 26#26: exit
+2023/10/26 17:54:04 [notice] 27#27: exit
+2023/10/26 17:54:04 [notice] 25#25: exit
+2023/10/26 17:54:04 [notice] 24#24: exit
+2023/10/26 17:54:04 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/10/26 17:54:04 [notice] 1#1: worker process 22 exited with code 0
+2023/10/26 17:54:04 [notice] 1#1: worker process 23 exited with code 0
+2023/10/26 17:54:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/26 17:54:04 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/10/26 17:54:04 [notice] 1#1: worker process 20 exited with code 0
+2023/10/26 17:54:04 [notice] 1#1: worker process 21 exited with code 0
+2023/10/26 17:54:04 [notice] 1#1: worker process 24 exited with code 0
+2023/10/26 17:54:04 [notice] 1#1: worker process 26 exited with code 0
+2023/10/26 17:54:04 [notice] 1#1: worker process 27 exited with code 0
+2023/10/26 17:54:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/26 17:54:04 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/10/26 17:54:04 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/10/26 17:54:04 [notice] 1#1: worker process 25 exited with code 0
+2023/10/26 17:54:04 [notice] 1#1: exit
+2023/10/26 17:54:21 [notice] 1#1: using the "epoll" event method
+2023/10/26 17:54:21 [notice] 1#1: nginx/1.25.3
+2023/10/26 17:54:21 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/10/26 17:54:21 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2023/10/26 17:54:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/26 17:54:21 [notice] 1#1: start worker processes
+2023/10/26 17:54:21 [notice] 1#1: start worker process 20
+2023/10/26 17:54:21 [notice] 1#1: start worker process 21
+2023/10/26 17:54:21 [notice] 1#1: start worker process 22
+2023/10/26 17:54:21 [notice] 1#1: start worker process 23
+2023/10/26 17:54:21 [notice] 1#1: start worker process 24
+2023/10/26 17:54:21 [notice] 1#1: start worker process 25
+2023/10/26 17:54:21 [notice] 1#1: start worker process 26
+2023/10/26 17:54:21 [notice] 1#1: start worker process 27
+2023/10/26 17:58:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/26 17:58:14 [notice] 22#22: gracefully shutting down
+2023/10/26 17:58:14 [notice] 22#22: exiting
+2023/10/26 17:58:14 [notice] 25#25: gracefully shutting down
+2023/10/26 17:58:14 [notice] 25#25: exiting
+2023/10/26 17:58:14 [notice] 24#24: gracefully shutting down
+2023/10/26 17:58:14 [notice] 24#24: exiting
+2023/10/26 17:58:14 [notice] 26#26: gracefully shutting down
+2023/10/26 17:58:14 [notice] 26#26: exiting
+2023/10/26 17:58:14 [notice] 20#20: gracefully shutting down
+2023/10/26 17:58:14 [notice] 20#20: exiting
+2023/10/26 17:58:14 [notice] 21#21: gracefully shutting down
+2023/10/26 17:58:14 [notice] 27#27: gracefully shutting down
+2023/10/26 17:58:14 [notice] 23#23: gracefully shutting down
+2023/10/26 17:58:14 [notice] 22#22: exit
+2023/10/26 17:58:14 [notice] 25#25: exit
+2023/10/26 17:58:14 [notice] 24#24: exit
+2023/10/26 17:58:14 [notice] 26#26: exit
+2023/10/26 17:58:14 [notice] 20#20: exit
+2023/10/26 17:58:14 [notice] 21#21: exiting
+2023/10/26 17:58:14 [notice] 27#27: exiting
+2023/10/26 17:58:14 [notice] 23#23: exiting
+2023/10/26 17:58:14 [notice] 21#21: exit
+2023/10/26 17:58:14 [notice] 27#27: exit
+2023/10/26 17:58:14 [notice] 23#23: exit
+2023/10/26 17:58:14 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/10/26 17:58:14 [notice] 1#1: worker process 22 exited with code 0
+2023/10/26 17:58:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/26 17:58:14 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/10/26 17:58:14 [notice] 1#1: worker process 21 exited with code 0
+2023/10/26 17:58:14 [notice] 1#1: worker process 24 exited with code 0
+2023/10/26 17:58:14 [notice] 1#1: worker process 20 exited with code 0
+2023/10/26 17:58:14 [notice] 1#1: worker process 25 exited with code 0
+2023/10/26 17:58:14 [notice] 1#1: worker process 26 exited with code 0
+2023/10/26 17:58:14 [notice] 1#1: worker process 27 exited with code 0
+2023/10/26 17:58:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/26 17:58:14 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/10/26 17:58:14 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/10/26 17:58:14 [notice] 1#1: worker process 23 exited with code 0
+2023/10/26 17:58:14 [notice] 1#1: exit
+2023/10/26 17:58:17 [notice] 1#1: using the "epoll" event method
+2023/10/26 17:58:17 [notice] 1#1: nginx/1.25.3
+2023/10/26 17:58:17 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/10/26 17:58:17 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2023/10/26 17:58:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/26 17:58:17 [notice] 1#1: start worker processes
+2023/10/26 17:58:17 [notice] 1#1: start worker process 20
+2023/10/26 17:58:17 [notice] 1#1: start worker process 21
+2023/10/26 17:58:17 [notice] 1#1: start worker process 22
+2023/10/26 17:58:17 [notice] 1#1: start worker process 23
+2023/10/26 17:58:17 [notice] 1#1: start worker process 24
+2023/10/26 17:58:17 [notice] 1#1: start worker process 25
+2023/10/26 17:58:17 [notice] 1#1: start worker process 26
+2023/10/26 17:58:17 [notice] 1#1: start worker process 27
+2023/10/26 17:59:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/26 17:59:13 [notice] 21#21: gracefully shutting down
+2023/10/26 17:59:13 [notice] 22#22: gracefully shutting down
+2023/10/26 17:59:13 [notice] 22#22: exiting
+2023/10/26 17:59:13 [notice] 23#23: gracefully shutting down
+2023/10/26 17:59:13 [notice] 20#20: gracefully shutting down
+2023/10/26 17:59:13 [notice] 20#20: exiting
+2023/10/26 17:59:13 [notice] 24#24: gracefully shutting down
+2023/10/26 17:59:13 [notice] 24#24: exiting
+2023/10/26 17:59:13 [notice] 27#27: gracefully shutting down
+2023/10/26 17:59:13 [notice] 26#26: gracefully shutting down
+2023/10/26 17:59:13 [notice] 26#26: exiting
+2023/10/26 17:59:13 [notice] 25#25: gracefully shutting down
+2023/10/26 17:59:13 [notice] 25#25: exiting
+2023/10/26 17:59:13 [notice] 21#21: exiting
+2023/10/26 17:59:13 [notice] 22#22: exit
+2023/10/26 17:59:13 [notice] 23#23: exiting
+2023/10/26 17:59:13 [notice] 20#20: exit
+2023/10/26 17:59:13 [notice] 24#24: exit
+2023/10/26 17:59:13 [notice] 27#27: exiting
+2023/10/26 17:59:13 [notice] 26#26: exit
+2023/10/26 17:59:13 [notice] 25#25: exit
+2023/10/26 17:59:13 [notice] 21#21: exit
+2023/10/26 17:59:13 [notice] 23#23: exit
+2023/10/26 17:59:13 [notice] 27#27: exit
+2023/10/26 17:59:13 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/10/26 17:59:13 [notice] 1#1: worker process 22 exited with code 0
+2023/10/26 17:59:13 [notice] 1#1: worker process 26 exited with code 0
+2023/10/26 17:59:13 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/26 17:59:13 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/10/26 17:59:13 [notice] 1#1: worker process 20 exited with code 0
+2023/10/26 17:59:13 [notice] 1#1: worker process 24 exited with code 0
+2023/10/26 17:59:13 [notice] 1#1: worker process 25 exited with code 0
+2023/10/26 17:59:13 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/26 17:59:13 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/10/26 17:59:13 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/10/26 17:59:13 [notice] 1#1: worker process 21 exited with code 0
+2023/10/26 17:59:13 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/26 17:59:13 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/10/26 17:59:13 [notice] 1#1: worker process 23 exited with code 0
+2023/10/26 17:59:13 [notice] 1#1: worker process 27 exited with code 0
+2023/10/26 17:59:13 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/10/26 17:59:13 [notice] 1#1: exit
+2023/10/26 17:59:35 [emerg] 1#1: "http" directive is not allowed here in /etc/nginx/conf.d/ngnix.conf:1
+2023/10/26 18:00:43 [emerg] 1#1: "http" directive is not allowed here in /etc/nginx/conf.d/ngnix.conf:1
+2023/10/26 18:01:57 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2023/10/26 18:02:37 [emerg] 1#1: invalid host in upstream "http://server-1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:03:35 [emerg] 1#1: invalid host in upstream "http://server-1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:17:27 [emerg] 1#1: invalid host in upstream "http://server-1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:18:14 [emerg] 1#1: invalid host in upstream "http://server-1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:23:03 [emerg] 1#1: invalid host in upstream "http://server-1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:25:13 [emerg] 1#1: invalid host in upstream "http://server-1:8001" in /etc/nginx/nginx.conf:8
+2023/10/26 18:37:17 [emerg] 1#1: invalid host in upstream "http://server-1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:38:16 [emerg] 1#1: invalid host in upstream "http://server-1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:38:49 [emerg] 1#1: invalid host in upstream "http://server-1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:42:49 [emerg] 1#1: invalid host in upstream "http://server-1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:43:16 [emerg] 1#1: invalid host in upstream "http://service-1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:43:33 [emerg] 1#1: invalid host in upstream "http://server1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:44:41 [emerg] 1#1: invalid host in upstream "http://server1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:47:34 [emerg] 1#1: invalid host in upstream "http://server1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:47:38 [emerg] 1#1: invalid host in upstream "http://server1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:48:25 [emerg] 1#1: invalid host in upstream "http://server1:80" in /etc/nginx/nginx.conf:8
+2023/10/26 18:51:37 [emerg] 1#1: invalid host in upstream "http://server1:8001" in /etc/nginx/nginx.conf:8
+2023/10/26 18:52:13 [emerg] 1#1: invalid host in upstream "http://server1:8000" in /etc/nginx/nginx.conf:8
+2023/10/26 18:55:12 [emerg] 1#1: invalid host in upstream "http://0.0.0.0:8001" in /etc/nginx/nginx.conf:8
+2023/10/26 18:57:39 [emerg] 1#1: invalid host in upstream "http://0.0.0.0:8002" in /etc/nginx/nginx.conf:8
+2023/10/26 19:00:29 [emerg] 1#1: unknown log format "apm" in /etc/nginx/nginx.conf:12
+2023/10/26 19:04:25 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8001/", host: "0.0.0.0"
+2023/10/26 19:04:25 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.4:8002/", host: "0.0.0.0"
+2023/10/26 19:04:25 [error] 20#20: *1 no live upstreams while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://mybackend/favicon.ico", host: "0.0.0.0", referrer: "http://0.0.0.0/"
+2023/10/26 19:05:09 [error] 20#20: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.4:8002/", host: "localhost"
+2023/10/26 19:05:09 [error] 20#20: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8001/", host: "localhost"
+2023/10/26 19:05:09 [error] 20#20: *9 no live upstreams while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://mybackend/favicon.ico", host: "localhost", referrer: "http://localhost/"
