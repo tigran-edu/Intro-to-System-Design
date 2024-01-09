@@ -16,7 +16,7 @@ services:
     build: 
         context: server
     ports:
-      - "8001:8000"
+      - "8000"
     depends_on:
       - redis
   
@@ -24,7 +24,7 @@ services:
     build: 
         context: server
     ports:
-      - "8002:8000"
+      - "8000"
     depends_on:
       - redis
 

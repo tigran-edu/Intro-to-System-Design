@@ -10,3 +10,8 @@
 192.168.65.1 - - [26/Oct/2023:19:06:22 +0000] "GET /favicon.ico HTTP/1.1" 404 22 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
 192.168.65.1 - - [26/Oct/2023:19:06:40 +0000] "GET /link/234 HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
 192.168.65.1 - - [26/Oct/2023:19:06:52 +0000] "GET /link/2b3650f9-984a-41a5-b3da-384fa189004f39432314-d69a-4a17-a1fb-412860addba5 HTTP/1.1" 200 20 "-" "curl/7.87.0"
+192.168.65.1 - - [09/Jan/2024:09:02:10 +0000] "GET /link/2b3650f9-984a-41a5-b3da-384fa189004f39432314-d69a-4a17-a1fb-412860addba5 HTTP/1.1" 404 116 "-" "curl/8.4.0"
+192.168.65.1 - - [09/Jan/2024:09:02:34 +0000] "POST /create HTTP/1.1" 307 0 "-" "curl/8.4.0"
+192.168.65.1 - - [09/Jan/2024:09:02:57 +0000] "GET /link/2b3650f9-984a-41a5-b3da-384fa189004f39432314-d69a-4a17-a1fb-412860addba5 HTTP/1.1" 404 116 "-" "curl/8.4.0"
+192.168.65.1 - - [09/Jan/2024:09:03:10 +0000] "POST /create/?url=google.com/ HTTP/1.1" 200 86 "-" "curl/8.4.0"
+192.168.65.1 - - [09/Jan/2024:09:03:30 +0000] "GET /link/fcdf6f2f-9095-4e96-a01e-f2d8792e539609cf6c7f-f3a1-4de8-bce4-643c8b5c0648 HTTP/1.1" 200 21 "-" "curl/8.4.0"

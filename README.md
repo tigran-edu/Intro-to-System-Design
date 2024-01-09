@@ -1,1 +1,1 @@
-Simple Api server with nginx and redis 
+Simple Api server with nginx and redis
